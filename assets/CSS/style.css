@@ -1,12 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    background-color: rgb(134, 1, 1);
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
 
+.card-footer{
+    border-end-end-radius: 15px;
+    border-end-start-radius: 15px;
+    padding: 12px;
+    background-color: rgb(42, 41, 41);
+}
+
+
+.card {
+    border-radius: 15px;
+    padding: 8px;
+    border: none;
+}
+.text-center {
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+}
+#music-details {
+    border-end-end-radius: 15px;
+    border-end-start-radius: 15px;
+    margin: 0 !important;
+    border: none; 
+    background-color: rgb(42, 41, 41);
+}
+
+#music-image{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
 .container {
-    width: 370px;
+    padding: 50px;
+    border: none;
+    border-radius: 15px;
+    width: 400px;
 }
 
 #progress .times, 
@@ -17,14 +58,59 @@ body {
     justify-content: space-between;
 }
 
+#current-time, #duration {
+    color: #fff;
+}
+.card-body{
+    padding: 20px;
+    background-color: rgb(42, 41, 41);
+}
+#controls {
+    background-color: rgb(42, 41, 41);
+}
+
 .volume-container i {
     margin-right: 5px;
 }
 
-/*#progress-bar {
-    width: 100%;
+.fa-solid {
+    color: #fff;
+    
 }
-#music-image {
-    width: 100%;
+
+li.playing {
+    margin-top: 4px;
+    background-color:rgb(42, 41, 41);
+    color: #fff;
 }
-*/
+.title {
+    margin-top: 15px;
+    color: #fff;
+    font-size: 19px;
+    font-family: "Times New Roman", Times, serif;
+}
+.singer {
+    color: #fff;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.badge {
+    color: #fff;
+}
+
+.card-body {
+    border-start-end-radius: 15px;
+    border-start-start-radius: 15px;
+    border: none;
+}
+
+li.list-group-item {
+    font-size: 17px;
+    font-family:serif;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
